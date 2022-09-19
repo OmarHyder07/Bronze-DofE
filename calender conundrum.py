@@ -1,4 +1,4 @@
-def number_seperator(mayan_date): #seperates the inputed maya date into different numbers in a list
+def number_seperator(mayan_date): #seperates the inputed mayan date into different numbers in a list
     numberlist = []
     number = ""
     for i in mayan_date:
@@ -71,9 +71,9 @@ while days >= 31: #goes through each month.
     if days >= 31:
         days = days - 31
         month = 0 #restarts the months 
-        year = year + 1
+        year = year + 1 #adds a new year 
 
 day = day + days #when the total days isn't >= to the month day count, that means the total days is the gregorian date. 
         
 months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-print("That date is: " + str(day) + " " + months[month] + " " + str(year)) 
+print("The date is: " + str(day) + " " + months[month] + " " + str(year)) 
